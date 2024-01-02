@@ -1,0 +1,27 @@
+st_Motor_Move_Input	STRUCT			3	
+Execute	BOOL			
+Axis	USINT			
+moveInfo	struct_move_info			
+st_move_info	STRUCT			5	
+Position	LREAL			
+Velcoity	LREAL			
+Acceleration	LREAL			
+Deceleration	LREAL			
+Jerk	LREAL			
+st_Motor_Move_Output	STRUCT			6	
+Done	BOOL			
+Busy	BOOL			
+Active	BOOL			
+CommandAborted	BOOL			
+Error	BOOL			
+ErrorID	WORD			
+st_axis_info	STRUCT			6	
+ActPos	LREAL			
+ActVel	LREAL			
+PosError	LREAL			
+ActTrq	INT			
+ActCur	INT			
+PLCopenState	USINT			
+st_sd	STRUCT			2	
+Member1	BOOL			
+Member2	BOOL			
